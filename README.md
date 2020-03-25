@@ -1,2 +1,2 @@
 # recipeFinder
-recipe search webapp made using hibernate
+recipe search webapp made using Hibernate and ajax

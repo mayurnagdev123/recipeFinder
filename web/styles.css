@@ -1,0 +1,34 @@
+td{
+	text-align:center;
+}
+
+.heart{
+margin:30px 30px ;
+background-color:red;
+height:30px;
+position:relative;
+width:30px;
+}
+.heart:before,
+.heart:after
+{
+position:absolute;
+content:"";
+background-color:red;
+border-radius:50%;
+height:30px;
+position:absolute;
+width:30px;
+}
+.heart:before{
+top:-15px;
+background-color:blue;
+}
+.heart:after{
+
+left:-15;
+background-color:yellow;
+}
+.heart{
+transform:rotate(45deg);
+}
